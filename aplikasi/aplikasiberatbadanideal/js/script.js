@@ -11,7 +11,7 @@ function beratBadanLaki() {
         hasil = document.getElementById("hasil");
         hasil.innerHTML = "Tinggi badan anda "+x+" cm, dan berat badan yang ideal untuk anda adalah "+beratIdeal+" kg.\n";
     } else {
-        alert("Tinggi badan yang adna input tidak valid!, Isi kembali");
+        alert("Tinggi badan yang anda input tidak valid, Mohon isi kembali!");
     }
 }
 
@@ -23,6 +23,6 @@ function beratBadanPerempuan() {
         hasil = document.getElementById("hasil");
         hasil.innerHTML = "Tinggi badan anda "+x+" cm, dan berat badan yang ideal untuk anda adalah "+beratIdeal+" kg.\n";
     } else {
-        alert("Tinggi badan yang adna input tidak valid!, Isi kembali");
+        alert("Tinggi badan yang anda input tidak valid, Mohon isi kembali!");
     }
 }
