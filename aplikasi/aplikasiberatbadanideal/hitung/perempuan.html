@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berat Ideal Perempuan</title>
+
+    <!-- Import file CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Membuat container untuk menampung semua item -->
+    <div class="container">
+
+        <!-- Membuat judul halaman -->
+        <h1 class="judul">Cari Tahu Berapa Berat Badan Idealmu Sebagai Wanita</h1>
+
+        <!-- Membuat tombol untuk memilih jenis kelamin -->
+        <center>
+            <p>Masukkan Tinggi Badanmu:</p>
+            <form name="formInput">
+                <!-- Membuat kolom untuk input tinggi badan -->
+                <input type="text" name="tinggiBadan"> <span>cm</span>
+            </form>
+            <!-- Membuat tombol untuk melakukan hitung -->
+            <button onclick="beratBadanPerempuan()">HITUNG</button>
+            <br><br><br>
+            <hr>
+            <!-- Elemen untuk menampilkan hasil perhitungan -->
+            <h3 id="hasil">Hasil akan muncul disini</h3>
+            <hr>
+        </center>
+
+        <!-- Link yang diarahkan ke informasi web atau kembali ke halaman utama -->
+        <p class="infoWeb"><a href="../infoweb/infoweb.html">Aplikasi Web Apa Ini ?</a><br><br><a href="../index.html">Kembali ke Halaman Utama</a></p>
+    </div>
+
+    <!-- Import file Javascript -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* Style untuk elemen body */
+body {
+    background-color: #ebe7e0;
+    font-family: sans-serif;
+}
+
+/* Style untuk elemen yang mengandung class container */
+.container {
+    width: 80%;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #d4cfc7;
+}
+
+/* Style untuk elemen yang mengandung class judul */
+.judul {
+    margin: 0;
+    padding: 50px 0 70px 0;
+    text-align: center;
+    color: #44749d;
+}
+
+/* Style untuk elemen yang menggunakan tag p */
+p {
+    color: #44749d;
+    font-weight: bold;
+}
+
+/* Style untuk elemen yang mengandung class jenisKelamin */
+.jenisKelamin {
+    border: 3px solid #373737;
+    border-radius: 10px;
+    width: 200px;
+    display: inline-block;
+    margin: 0 10px 10px 10px;
+    box-shadow: 1px 1px 1px 1px #d4cfc7;
+}
+.jenisKelamin:hover {
+    background-color: #c6d4e1;
+}
+.jenisKelamin a {
+    text-decoration: none;
+    color: #44749d;
+    font-weight: bold;
+    display: block;
+    margin: 10px;
+}
+
+/* Style untuk elemen yang mengandung class infoWeb */
+.infoWeb {
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.infoWeb a {
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: bold;
+}
+.infoWeb a:hover {
+    color: #44749d;
+}
+
+/* Style untuk elemen dengan tag form */
+form input {
+    width: 200px;
+    height: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: solid;
+}
+form span {
+    font-weight: bold;
+}
+
+/* Style untuk elemen dengan tag button */
+button {
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px 2px #d4cfc7;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #44749d;
+}
+
+/* Style untuk elemen dengan id hasil */
+#hasil {
+    color: #44749d;
+}
+
+/* Style untuk elemen dengan class informasi */
+.informasi {
+    width: 80%;
+    margin: auto;
+}
+.informasi p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+/* Style untuk elemen tabel */
+table {
+    width: 100%;
+}
+table td, table th {
+    border: 2px solid #373737;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #44749d;
+    font-weight: bold;
+}
