@@ -1,0 +1,161 @@
+/* style for body element */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* style for header class */
+.header {
+    background-color: #c2009b;
+    padding: 20px 0;
+}
+.header h1 {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+}
+.header p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #c2009b;
+    margin-top: 10px;
+}
+.header span {
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+/* style for box-content class */
+.box-content {
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #c2009b;
+    padding: 30px;
+}
+.box-content h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #c2009b;
+}
+.box-content p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.box-content .form-row {
+    margin: 20px 0;
+}
+.box-content label {
+    width: 100%;
+    font-size: 18px;
+}
+.box-content input[type="text"], .box-content input[type="number"] {
+    width: 97%;
+    font-size: 20px;
+    padding: 5px;
+    color: #353535;
+    border-radius: 7px;
+    border: 1px solid #353535;
+}
+.box-content button[type="submit"] {
+    font-size: 17px;
+    background-color: #c2009b;
+    border: 2px solid #c2009b;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff;
+    margin: 0;
+}
+.box-content button[type="submit"]:hover {
+    background-color: #6e0559;
+    border: 2px solid #6e0559;
+    cursor: pointer;
+}
+.box-content table {
+    width: 100%;
+    border: 1px solid #c2009b;
+}
+.box-content td, .box-content th {
+    padding: 5px;
+    border: 1px solid #c2009b;
+}
+.box-content th {
+    background-color: #c2009b;
+    color: #ffffff;
+}
+.box-content .btn-set-status {
+    background-color: #00a000;
+    border: 1px solid #00a000;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.box-content .btn-set-status:hover {
+    cursor: pointer;
+    background-color: #036303;
+    border: 1px solid #036303;
+}
+.box-content .btn-delete {
+    background-color: #a50707;
+    border: 1px solid #a50707;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.box-content .btn-delete:hover {
+    cursor: pointer;
+    background-color: #5f0303;
+    border: 1px solid #5f0303;
+}
+.box-content #btn-search {
+    background-color: #0778a5;
+    border: 1px solid #0778a5;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.box-content #btn-search:hover {
+    cursor: pointer;
+    background-color: #035372;
+    border: 1px solid #035372;
+}
+
+/* style for navigation */
+.navigation {
+    padding: 10px 0;
+}
+.navigation span {
+    padding: 5px;
+    color: #6e0559;
+}
+.navigation span:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* style for footer */
+.footer {
+    position:absolute;
+    bottom:0;
+    right: 0;
+    padding: 10px;
+    background-color: #c2009b;
+    color: #ffffff;
+}
+
+/* responsive */
+@media only screen and (max-width: 960px) {
+    .box-content {
+        width: 85%;
+    }
+}

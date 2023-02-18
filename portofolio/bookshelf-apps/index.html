@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookshelf Apps | Ibnu Ahmad Fauzi</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body onload="pageOnLoad()">
+    
+    <div class="container">
+        
+        <div class="header">
+            <h1>Bookshelf Apps</h1>
+            <p><span>by: Ibnu Ahmad Fauzi</span></p>
+        </div>
+
+        <div class="navigation">
+            <center>
+                <span onclick="create()">Tambah</span>
+                <span onclick="complete()">Selesai</span>
+                <span onclick="uncomplete()">Proses</span>
+                <span onclick="search()">Cari</span>
+            </center>
+        </div>
+
+        <div class="box-content" id="create">
+            <h1>Tambah Data Buku</h1>
+            <hr>
+                <div class="form-row">
+                    <label for="title">Judul</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-row">
+                    <label for="author">Penulis</label>
+                    <input type="text" id="author" name="author">
+                </div>
+                <div class="form-row">
+                    <label for="year">Tahun</label>
+                    <input type="number" id="year" name="year">
+                </div>
+                <div class="form-row">
+                    <input type="checkbox" id="is-complete" name="is-complete">
+                    <label for="is-complete"> Selesai Dibaca ?</label>
+                </div>
+                <div class="form-row">
+                    <center>
+                        <button type="submit" id="btn-book-insert" onclick="window.open('index.html','_self')">Tambah ke Rak <b><span id="btn-status">Belum Selesai Dibaca</span></b></button>
+                    </center>
+                </div>
+        </div>
+
+        <div class="box-content" id="complete">
+            <h1>Selesai Dibaca</h1>
+            <hr>
+            <table cellspacing="0">
+                <thead>
+                    <th>Judul</th>
+                    <th>Penulis</th>
+                    <th>Tahun</th>
+                    <th>Aksi</th>
+                </thead>
+                <tbody id="complete-list">
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="box-content" id="uncomplete">
+            <h1>Belum Selesai Dibaca</h1>
+            <hr>
+            <table cellspacing="0">
+                <thead>
+                    <th>Judul</th>
+                    <th>Penulis</th>
+                    <th>Tahun</th>
+                    <th>Aksi</th>
+                </thead>
+                <tbody id="uncomplete-list">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="box-content" id="search">
+            <h1>Cari Buku</h1>
+            <hr>
+            <div class="form-row">
+                <label for="search-text">Masukkan Judul / Penulis</label>
+                <input type="text" name="search-text" id="search-text">
+            </div>
+            <div class="form-row">
+                <center>
+                    <button id="btn-search">Cari Buku</button>
+                </center>
+            </div>
+            <center>
+                <h3>Hasil Pencarian</h3>
+            </center>
+            <table>
+                <thead>
+                    <th>Judul</th>
+                    <th>Penulis</th>
+                    <th>Tahun</th>
+                    <th>Status</th>
+                </thead>
+                <tbody id="list-search-book"></tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            <center>
+                &copy; 2022 - Ibnu Ahmad Fauzi
+            </center>
+        </div>
+
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
